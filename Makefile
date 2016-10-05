@@ -5,6 +5,9 @@ LIBS=
 INC=/usr/local/include
 TARGET=main
 
+ARGS=
+
+
 all: $(TARGET)
 
 $(TARGET): $(TARGET).cpp
@@ -12,9 +15,5 @@ $(TARGET): $(TARGET).cpp
 
 clean:
 	$(RM) $(TARGET)
-
-
-
-
 
 
