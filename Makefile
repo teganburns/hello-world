@@ -1,5 +1,5 @@
 CXX=g++
-CFLAGS=-Wall -std=c++11
+CFLAGS=-Wall
 LDFLAGS=
 LIBS=
 INC=/usr/local/include
