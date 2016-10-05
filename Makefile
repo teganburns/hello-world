@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-Wall -std=c++14
 LDFLAGS=
 LIBS=
-INC=
+INC=/usr/local/include
 TARGET=main
 
 all: $(TARGET)
